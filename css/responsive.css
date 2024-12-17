@@ -1,0 +1,515 @@
+@media (min-width:992px) {
+    nav.navbar.shadow{
+        box-shadow: none !important;
+    }
+}
+@media (max-width:991px) {
+    .row>* {
+        margin-top: -15px;
+    }
+    #banner h4 {
+        font-weight: 500;
+        font-size: 15px;
+        padding-top: 25px;
+    }
+    #banner h1 {
+        font-size: 34px;
+        margin-top: 8px;
+        margin-bottom: 14px;
+    }
+    #banner p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 190%;
+    }
+    
+    .btn.btn-warning {
+        font-size: 10px;
+        border-radius: 10px;
+        padding: 8px 20px 9px;
+    }
+    .btn.btn-outline {
+        font-size: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        padding: 8px 7px 9px;
+    }
+    #banner .btn {
+        margin-top: 22px;
+    }
+    #banner .btn.btn-warning {
+        margin-right: 12px;
+    }
+    #banner .socialLink span {
+        font-size: 16px;
+        margin-right: 16px;
+    }
+    #banner .mouseIcon a {
+        margin-left: 0;
+        color: transparent;
+    }
+    /* content start */
+
+    #content h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    #content p {
+        font-size: 14px;
+        margin-bottom: 36px;
+    }
+    #content .btn.btn-outline {
+        font-size: 14px;
+        border: 1px solid #000;
+        border-radius: 15px;
+        padding: 11px 28px;
+    }
+    #content .container::before {
+        content: '';
+        width: 88px;
+        height: 87px;
+        background-image: linear-gradient(180deg, #52ab70 0%, rgba(82, 171, 112, 0.48) 100%);
+        border-radius: 100%;
+        position: absolute;
+        left: 250px;
+        top: -50px;
+    }
+    #content .container::after {
+        content: '';
+        width: 90px;
+        height: 100px;
+        background-color: #fff;
+        position: absolute;
+        left: 250px;
+        top: -100px;
+    }
+    
+
+    /* content end */
+
+    /* #socialCard start */
+    #socialCard .card_one {
+        border-radius: 20px;
+        width: 343px;
+        height: 157px;
+        box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+        background: #fff;
+        margin-left: 24px;
+        margin-top: 15px;
+    }
+    #socialCard .card_one .cardImg {
+        margin: 26px;
+    }
+    #socialCard .card_one h1 {
+        position: absolute;
+        font-size: 14px;
+        text-align: right;
+        margin-top: -110px;
+        margin-left: 116px;
+    }
+    #socialCard .card_one p {
+        font-size: 12px;
+        text-align: left;
+        line-height: 174%;
+        margin-top: -85px;
+        margin-left: 116px;
+    }
+    /* #socialCard end */
+
+    /* content_one start */
+
+    #content_one .image {
+        margin-left: 250px;
+    }
+    #content_one h1 {
+        font-size: 24px;
+        margin-top: 80px;
+    }
+    #content_one p {
+        font-size: 14px;
+        margin: 14px 0 23px 0;
+    }
+    #content_one .btn.btn-outline {
+        font-family: var(--font-family);
+        font-size: 14px;
+        border: none;
+        border-radius: none;
+        margin-bottom: 10px;
+       
+    }
+    #content_one .image_one {
+        margin-left: 146px;
+        margin-top: 280px;
+    }
+    /* content_one end */
+    /* helpCenter start */
+
+    #helpCenter h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+    #helpCenter p.text {
+        font-size: 15px;
+        text-align: left;
+        margin-top: 29px;
+        margin-bottom: 24px;
+    }
+    #helpCenter .number a.tag {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    #helpCenter .number a {
+        font-size: 24px;
+        margin-left: 67px;
+    }
+    #helpCenter .number p {
+        font-size: 10px;
+        margin-left: 133px;
+        margin-bottom: 38px;
+    }
+    #helpCenter .helpCenter_one {
+        background: #fff;
+        width: 343px;
+        height: 83px;
+        margin-bottom: 23px;
+    }
+    #helpCenter .helpCenter_one h4 {
+        font-size: 14px;
+        margin: 17px 133px 44px 105px;
+    }
+    #helpCenter .helpCenter_one p {
+        font-size: 11px;
+        margin: 40px 211px 20px 105px;
+    }
+
+    /* helpCenter end */
+
+    /* Experience start */
+
+    #Experience .container h1 {
+        font-size: 24px;
+        margin-right: 36px;
+        margin-left: 24px;
+    }
+    #Experience .container .one h1 {
+        font-size: 15px;
+        padding-bottom: 168px;
+        margin-right: 60px;
+        border-right: none;
+        border-bottom: 1.50px dashed #7a7a7a;
+        position: relative;
+    }
+    #Experience .container .one.another_color h1 {
+        margin-left: 10px;
+        padding-bottom: 103px;
+        border-bottom: none;
+       
+    }
+    #Experience .container .one p {
+        font-size: 12px;
+        position: absolute;
+        margin-top: -168px;
+        margin-left: 102px;
+    }
+    #Experience .container .one.another_color p {
+        margin-top: -105px;
+        margin-left: 102px;
+    }
+    #Experience .container .one h1::before {
+        content: '';
+        position: absolute;
+        margin-top: 175px;
+        margin-left: 207px;
+    }
+    #Experience .container .one.another_color h1::before{
+        content: '';
+        position: absolute;
+        margin-top: -21px;
+        margin-left: -103px;
+        border: none;
+    }
+    #Experience .container .one h1::after {
+        content: '';
+        position: absolute;
+        margin-top: 185px;
+        margin-left: 88px;
+    }
+    #Experience .container .one.another_color h1::after {
+        background-color: transparent;
+        margin-top: -10px;
+        margin-left: -207px;
+    }
+    #Experience .container .two h2.num{
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: -467px;
+        margin-left: 100px;
+    }
+    #Experience .container .two p.num {
+        
+        font-size: 12px;
+        margin-left: 100px;
+        margin-bottom: 56px;
+    }
+    #Experience .container .two h2.two_number {
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 92px;
+        margin-left: 100px;
+    }
+    #Experience .container .two p.two_number{
+        font-size: 12px;
+        margin-left: 100px;
+        margin-bottom: 56px;
+    }
+    #Experience .container .two h2.two_numberOne {
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 65px;
+        margin-left: 100px;
+    }
+    #Experience .container .two p.two_numberOne{
+        font-size: 12px;
+        margin-left: 100px;
+        margin-bottom: 56px;
+       
+    }
+
+    /* Experience end */
+
+    /* ExpertAreas start */
+
+    #ExpertAreas .container h1 {
+        font-size: 24px;
+        margin-top: 158px;
+        margin-bottom: 26px;
+    }
+    #ExpertAreas .container p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    #ExpertAreas .container .btn.btn-warning {
+        color: #5f5f5f;
+        background-image: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+        margin-bottom: -100px;
+        width: 365px;
+    }
+    /* ExpertAreas end */
+
+    /* sevices start */
+
+    #sevices .container h1 {
+        font-size: 24px;
+        text-align: left;
+        margin-top: 34px;
+        margin-bottom: 20px;
+    }
+    #sevices .container p {
+        font-size: 13px;
+        text-align: left;
+    }
+    #sevices .container p br{
+        display: none;
+    }
+    #sevices .container .sevicesOne {
+        width: 342px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-bottom: 19px;
+    }
+    #sevices .container .sevicesOne h2 {
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 25px;
+        margin-top: -95px;
+        margin-left: 100px;
+    }
+    #sevices .container .sevicesOne p {
+        font-size: 13px;
+        text-align: left;
+        margin-top: 0;
+        margin-left: 100px;
+    }
+    #sevices .container .sevicesOne img {
+        margin: 24px 0 0;
+    }
+    #sevices .container .sevicesOne.card img{
+        margin: 26px 0 0;
+        position: absolute;
+    }
+    #sevices .container .sevicesOne.card p{
+        margin-left: 111px;
+    }
+    #sevices .container .sevicesOne.card {
+        width: 342px;
+        height: 200px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #sevices .container .sevicesOne.card h2{
+        margin-bottom: 25px;
+        margin-top: 18px;
+        margin-left: 111px;
+    }
+
+    /* sevices end */
+
+    /* client start */
+
+    #client .container h1{
+        font-size: 26px;
+        margin-top: 91px;
+    }
+    #client .container p {
+        display: ruby;
+        font-size: 13px;
+        margin: 10px 0 39px;
+    }
+    #client .container .partOne p {
+        font-size: 15px;
+    }
+    #client .container .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 19px;
+    }
+    #client .container .partOne h2 {
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    #client .container .partOne span {
+        font-size: 12px;
+    }
+
+    /* client end */
+
+    /* BlogPost start */
+
+    #BlogPost .container h1 {
+        font-size: 24px;
+        text-align: left;
+        margin: 102px 0 42px;
+    }
+    #BlogPost .container .BlogPostOne{
+        margin-top: 27px;
+    }
+    #BlogPost .container .img-fluid {
+       width: 163px;
+       height: 153px;
+     
+    }
+    #BlogPost .container .BlogPostOne p {
+        font-size: 10px;
+        margin-left: 205px;
+        margin-top: -148px;
+    }
+    #BlogPost .container .BlogPostOne span {
+        font-size: 10px;
+        margin-left: 16px;
+    }
+    #BlogPost .container .BlogPostOne h2 {
+        font-size: 13px;
+        margin-left: 182px;
+        margin-top: 6px;
+    }
+    #BlogPost .container .BlogPostOne a.btn {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 170px;
+        margin-bottom: 36px;
+    }
+
+    /* BlogPost end */
+    
+    /* Subscribe start */
+
+    #Subscribe .container h4 {
+        font-size: 12px;
+        margin-top: 55px;
+        margin-left: 2px;
+    }
+    #Subscribe .container h1 {
+        font-size: 20px;
+        margin-left: 2px;
+    }
+    #Subscribe .container p {
+        font-size: 14px;
+        margin-left: 2px;
+        margin-bottom: -40px;
+    }
+    /* Subscribe end */
+
+    /* LastPart start */
+
+    
+    #LastPart .container .col-lg-5{
+        width: 320px;
+        height: 0;
+    }
+    #LastPart .container .col-lg-4{
+        width: 320px;
+        height: 0;
+    }
+    #LastPart .container h1 {
+        font-size: 24px;
+        margin-top: 29px;
+        margin-bottom: 39px;
+    }
+    #LastPart .container .taitale h1 {
+        position: absolute;
+        font-size: 18px;
+        margin-top: -340px;
+    }
+    #LastPart .container .taitale p {
+        font-size: 13px;
+        margin-top: -306px;
+    }
+    #LastPart .container .bottnBar .btn {
+        margin-top: -413px;
+        margin-left: 2px;
+        font-size: 16px;
+    }
+    #LastPart .container h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-bottom: 265px;
+        margin-top: 172px;
+    }
+    #LastPart .container p {
+        position: absolute;
+        font-size: 13px;
+        margin-top: 193px;
+    }
+    #LastPart .container .jerro {
+        position: absolute;
+        margin-top: 268px;
+        margin-left: -168px;
+    }
+    #LastPart .container .taitale p.email {
+        font-size: 12px;
+        margin-top: -147px;
+        margin-left: 155px;
+    }
+    #LastPart .container .taitale h5 {
+        font-size: 13px;
+        margin-top: -126px;
+        margin-left: 155px;
+    }
+    #LastPart .container .bottnBar .socialLink span {
+        font-size: 14px;
+        margin-top: -236px;
+        margin-left: 10px;
+    }
+    #LastPart .container .bottnBar .socialLink .link{
+        margin-top: -239px;
+        
+    }
+    #LastPart .container .bottnBar img, svg {
+        vertical-align: middle;
+        margin-top: -70px;
+        margin-left: 135px;
+    }
+
+    /* LastPart end */
+}
